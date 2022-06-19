@@ -25,7 +25,6 @@ export const register = createAsyncThunk('auth/register', async (user, thunkAPI)
             error.toString()
         return thunkAPI.rejectWithValue(message)
     }
-
 })
 
 // Login user
